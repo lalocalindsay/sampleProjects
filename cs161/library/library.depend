@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1418023232 source:c:\users\lindsay\documents\codeblocks\cs161\library\menu.cpp
+	<iostream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<iomanip>
+	<math.h>
+	<stdexcept>
+	"Book.h"
+	"Patron.h"
+	"Library.h"
+
+1436826848 c:\users\lindsay\documents\codeblocks\cs161\library\book.h
+	"Patron.h"
+	"Library.h"
+	<string>
+
+1436826870 c:\users\lindsay\documents\codeblocks\cs161\library\patron.h
+	<stdio.h>
+	<vector>
+	"Book.h"
+	"Library.h"
+	<string>
+
+1436826859 c:\users\lindsay\documents\codeblocks\cs161\library\library.h
+	<vector>
+	<stdio.h>
+	"Book.h"
+	"Patron.h"
+	<string>
+
