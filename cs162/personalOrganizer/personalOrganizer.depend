@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1425786468 source:c:\users\lindsay\documents\codeblocks\personalorganizer\project5.cpp
+	"Task.h"
+	"TaskList.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	<stdlib.h>
+	<cctype>
+	<iomanip>
+
+1425786563 c:\users\lindsay\documents\codeblocks\personalorganizer\task.h
+
+1425784080 c:\users\lindsay\documents\codeblocks\personalorganizer\tasklist.h
+	"Task.h"
+	<cstring>
+
+1425786522 source:c:\users\lindsay\documents\codeblocks\personalorganizer\task.cpp
+	"Task.h"
+	<cstring>
+
+1425786830 source:c:\users\lindsay\documents\codeblocks\personalorganizer\tasklist.cpp
+	"TaskList.h"
+	"Task.h"
+	<cstring>
+	<iostream>
+	<stdlib.h>
+	<fstream>
+
+1425786522 source:c:\users\lindsay\documents\codeblocks\cs162\personalorganizer\task.cpp
+	"Task.h"
+	<cstring>
+
+1425786563 c:\users\lindsay\documents\codeblocks\cs162\personalorganizer\task.h
+
+1425786830 source:c:\users\lindsay\documents\codeblocks\cs162\personalorganizer\tasklist.cpp
+	"TaskList.h"
+	"Task.h"
+	<cstring>
+	<iostream>
+	<stdlib.h>
+	<fstream>
+
+1436821954 c:\users\lindsay\documents\codeblocks\cs162\personalorganizer\tasklist.h
+	"Task.h"
+	<cstring>
+
+1436821858 source:c:\users\lindsay\documents\codeblocks\cs162\personalorganizer\project5.cpp
+	"Task.h"
+	"TaskList.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	<stdlib.h>
+	<cctype>
+	<iomanip>
+

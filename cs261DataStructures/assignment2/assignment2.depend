@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1429496162 source:c:\users\lindsay\documents\codeblocks\assignment2\calc.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	"dynamicArray.h"
+
+1428350749 c:\users\lindsay\documents\codeblocks\assignment2\dynamicarray.h
+	<math.h>
+
+1429496196 source:c:\users\lindsay\documents\codeblocks\assignment2\dynamicarray.c
+	<assert.h>
+	<stdlib.h>
+	<assert.h>
+	"dynamicArray.h"
+
+1429349369 source:c:\users\lindsay\documents\codeblocks\assignment2\testdynarray.c
+	<stdio.h>
+	<stdlib.h>
+	"dynamicArray.h"
+

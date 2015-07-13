@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1429943846 source:c:\users\lindsay\documents\codeblocks\assignment3\linkedlist.c
+	"linkedList.h"
+	<assert.h>
+	<stdlib.h>
+	<stdio.h>
+
+1429661118 c:\users\lindsay\documents\codeblocks\assignment3\linkedlist.h
+
+1429920777 source:c:\users\lindsay\documents\codeblocks\assignment3\linkedlistmain.c
+	"linkedList.h"
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+
+1430074490 source:\\lindsays_pc\users\lindsay\documents\codeblocks\cs261datastructures\assignment3\linkedlist.c
+	"linkedList.h"
+	<assert.h>
+	<stdlib.h>
+	<stdio.h>
+
+1429661118 \\lindsays_pc\users\lindsay\documents\codeblocks\cs261datastructures\assignment3\linkedlist.h
+

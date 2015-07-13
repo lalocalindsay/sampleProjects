@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1430076526 source:c:\users\lindsay\documents\codeblocks\assignment3_cirlistdeque\listdequetest.c
+	"cirListDeque.h"
+	<stdio.h>
+
+1429661118 c:\users\lindsay\documents\codeblocks\assignment3_cirlistdeque\cirlistdeque.h
+
+1430074695 source:c:\users\lindsay\documents\codeblocks\assignment3_cirlistdeque\cirlistdeque.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<float.h>
+	"cirListDeque.h"
+

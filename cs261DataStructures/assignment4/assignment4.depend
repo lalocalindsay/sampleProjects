@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1431284458 source:c:\users\lindsay\documents\codeblocks\assignment4\compare.c
+	<stdio.h>
+	<assert.h>
+	"bst.h"
+	"structs.h"
+
+1431281411 c:\users\lindsay\documents\codeblocks\assignment4\bst.h
+
+1430194719 c:\users\lindsay\documents\codeblocks\assignment4\structs.h
+
+1431295198 source:c:\users\lindsay\documents\codeblocks\assignment4\bst.c
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	"bst.h"
+	"structs.h"
+	<stdio.h>
+
+1431139671 source:c:\users\lindsay\documents\codeblocks\assignment4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+	"structs.h"
+

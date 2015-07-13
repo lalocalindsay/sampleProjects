@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1427748394 source:c:\users\lindsay\documents\codeblocks\assignoneskeleton\q0.c
+	<stdio.h>
+	<stdlib.h>
+
+1428822463 source:c:\users\lindsay\documents\codeblocks\assignoneskeleton\q1.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1427748393 source:c:\users\lindsay\documents\codeblocks\assignoneskeleton\q2.c
+	<stdio.h>
+	<stdlib.h>
+
+1427748393 source:c:\users\lindsay\documents\codeblocks\assignoneskeleton\q3.c
+	<stdio.h>
+
+1428867621 source:c:\users\lindsay\documents\codeblocks\assignoneskeleton\q4.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1427748393 source:c:\users\lindsay\documents\codeblocks\assignoneskeleton\q5.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,32 @@
+/* holds task objects passed to it from heap */
+    struct Task *tempTask;
+
+    /* we need to copy everything to a temp array bc we'll be removing min (priority) from heap */
+    struct DynArr *tempDynArr = createDynArr(sizeDynArr(heap));
+
+    //free (tempDynArr);    /* see student notes in assignment description */
+
+    /* copy everything to tempArr */
+    copyDynArr(heap, tempDynArr);
+
+    while((sizeDynArr(tempDynArr)) > 0)
+    {
+        /* grab and pass to tempTask.
+        Then print and remove from tempDynArr */
+
+        tempTask = getMinHeap(heap); //void pinter issues?
+
+        /* print tempTask object */
+        printf("%d:  %s\n", tempTask->priority, tempTask->description);
+
+        removeMinHeap (tempDynArr); // this will decrement size
+    }
+
+    deleteDynArr(tempDynArr);
+    free(tempTask);
+
+
+
+    
+
+

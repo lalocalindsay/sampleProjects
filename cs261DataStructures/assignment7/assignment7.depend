@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1432678254 source:c:\users\lindsay\documents\codeblocks\assignment7\cirlistdeque.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"cirListDeque.h"
+
+1432678254 c:\users\lindsay\documents\codeblocks\assignment7\cirlistdeque.h
+	"type.h"
+
+1432678254 c:\users\lindsay\documents\codeblocks\assignment7\type.h
+	"graph.h"
+
+1432678254 c:\users\lindsay\documents\codeblocks\assignment7\graph.h
+
+1433743238 source:c:\users\lindsay\documents\codeblocks\assignment7\main.c
+	<stdio.h>
+	"graph.h"
+
+1433727412 source:c:\users\lindsay\documents\codeblocks\assignment7\graph.c
+	"graph.h"
+	<stdlib.h>
+	<stdio.h>
+	<limits.h>
+	"cirListDeque.h"
+
