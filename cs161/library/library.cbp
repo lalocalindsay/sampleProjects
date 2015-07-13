@@ -32,7 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="Book.cpp" />
+		<Unit filename="Book.h" />
+		<Unit filename="Library.cpp" />
+		<Unit filename="Library.h" />
+		<Unit filename="Patron.cpp" />
+		<Unit filename="Patron.h" />
+		<Unit filename="makefile" />
+		<Unit filename="menu.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
