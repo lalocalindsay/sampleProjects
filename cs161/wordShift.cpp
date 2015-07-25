@@ -25,6 +25,7 @@ INPUT:
 		
 	
 OUTPUT: 
+ 
 the program will output the following:
 		
 		cstring_printer     // this cstring will be used repeatedly by
