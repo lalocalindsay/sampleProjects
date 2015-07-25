@@ -27,9 +27,9 @@ INPUT:
 OUTPUT: 
 the program will output the following:
 		
-		cstring_printer     /* this cstring will be used repeatedly by
+		cstring_printer     // this cstring will be used repeatedly by
                                the rev, Lx, and Rx functions to manipulate
-                               and display the user input string */
+                               and display the user input string
 							
 ****************************************************************************************/
 
