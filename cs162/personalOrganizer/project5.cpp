@@ -27,10 +27,10 @@
 
 #include <iostream>
 #include <cstring>
-#include <fstream> // definitions for ifstream and ofstream
-#include <stdlib.h>  // exit
-#include <cctype> //char handling functions
-#include <iomanip> //setprecision ,etc
+#include <fstream>   //definitions for ifstream and ofstream
+#include <stdlib.h>  //exit
+#include <cctype>    //char handling functions
+#include <iomanip>   //setprecision ,etc
 
 using namespace std;
 
@@ -46,7 +46,7 @@ int main()
 		char input_assign_desc [SIZE];
 		char input_due_date [SIZE];
 
-		Task taskObject;  //default constructor, other constructor called w/ file input
+		Task taskObject;   //default constructor, other constructor called w/ file input
 		TaskList taskData; //default constructor
 
 		// filestream
@@ -63,7 +63,7 @@ int main()
 
 		//OPEN FILE
 		task_in.open (external_file); //opens file
-		if(!task_in) //error message if failure to open, then exit
+		if(!task_in)                  //error message if failure to open, then exit
 		{
 				task_in.clear();
 				cerr << endl << "Failure when opening file: " << external_file << endl; //output stream for errors
@@ -76,10 +76,10 @@ int main()
 		while (!task_in.eof()) //until end of file / while not at the end of file
 		{
 
-				task_in.get(); //removes delimiter
+				task_in.get();                          //removes delimiter
 				task_in.get(input_assign_desc, SIZE, ';');
 
-				task_in.get();	//removes delimiter
+				task_in.get();	                        //removes delimiter
 				task_in.get(input_due_date, SIZE, '\n');
 				task_in.ignore(100, '\n');				//removes '\n'
 
@@ -97,7 +97,7 @@ int main()
 
 
 
-		//  do: switch menu , while: 'choice'
+		//do: switch menu , while: 'choice'
 		do
 		{
 				//Display menu and prompt user for 'choice'
@@ -178,11 +178,11 @@ int main()
 }
 
 
-///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
 
 				//  FUNCTIONS  //
 
-/////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
 
 
 /*
