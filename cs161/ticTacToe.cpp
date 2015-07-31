@@ -3,35 +3,34 @@ Author: Lindsay Tucker
 Date created: 16Nov2014
 Date last modified: 14Nov2014
 Program Filename:  ticTacToe.cpp
-Description/overview: 
-This is a 2 player game of TTT.  It will use a 3x3 array
+Description:
+This is a 2 player game of TTT. It will use a 3x3 array
 as a game board. The users will enter how many games they are to play
 on the command line (if no int is indicated, the default will be one game).
-Every game will switch which player gets to go
-first. Each player will enter the coordinates (two ints separated by a space)
-of their move.  If a space has already been taken, the player will
-be prompted to enter another location. The board will update after every move. The players will 
-also be notified if a player has made a winning move, or if they've run out of 
-turns (tie). The game score tally will be displayed along with a message of
-who the final champion is. 
+Every game will switch which player gets to go first. 
+Each player will enter the coordinates (two ints separated by a space)
+of their move. If a space has already been taken, the player will
+be prompted to enter another location. The board will update after every move. 
+The players will also be notified if a player has made a winning move, 
+or if they've run out of turns (tie). The game score tally will be displayed
+along with a message of who is the final champion.
 
 INPUT: 
-		-command line: number of games to play
-		-each player will take turns entering coordinates for their move
+        -command line: number of games to play
+        -each player will take turns entering coordinates for their move
 		
 
 		
 	
-OUTPUT: 
-the program will output the following:
-		whose turn it is
-		what # turn it is
-		the coordinates entered for each player
-		updated game board
-		number of games remaining
-		score
-		tie
-		overall champion							
+OUTPUT:
+		-whose turn it is
+		-what # turn it is
+		-the coordinates entered for each player
+		-updated game board
+		-number of games remaining
+		-score
+		-tie
+		-overall champion
 ****************************************************************************************/
 
 #include <iostream>
@@ -388,7 +387,7 @@ int checkWinner (char game_array[][COL]) //send gameArray after every turn, and 
 				return 1;
 		}
 		
-		//row 2(O)
+		//row 2 (O)
 		if ((game_array[2][0] == 'O' ) && (game_array[2][1]== 'O' ) && (game_array[2][2]== 'O' ) )
 		{
 				cout<< "Player 2: You're a winner!"<<endl; 
